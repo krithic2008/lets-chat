@@ -13,7 +13,7 @@ getData();
 function logout(){
       localStorage.removeItem("user_name");
       localStorage.removeItem("roomName");
-      window.location = "kwitter.html";
+      window.location = "index.html";
 }
 function send(){
       msg = document.getElementById("msg").value;
